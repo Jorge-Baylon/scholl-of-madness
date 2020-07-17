@@ -1725,7 +1725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -3695,14 +3695,14 @@ Transform:
   - {fileID: 616565423}
   - {fileID: 1761539670}
   - {fileID: 1676120304}
-  - {fileID: 618145196}
-  - {fileID: 1996845155}
-  - {fileID: 515772578}
-  - {fileID: 962139165}
-  - {fileID: 1302182175}
-  - {fileID: 757683928}
-  - {fileID: 123802473}
   - {fileID: 688942649}
+  - {fileID: 618145196}
+  - {fileID: 757683928}
+  - {fileID: 1996845155}
+  - {fileID: 962139165}
+  - {fileID: 515772578}
+  - {fileID: 1302182175}
+  - {fileID: 123802473}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
