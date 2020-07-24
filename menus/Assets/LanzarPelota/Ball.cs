@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class Ball : MonoBehaviour {
 
-	public float health = 4f;
 	public Rigidbody2D rb;
 	public Rigidbody2D hook;
 
@@ -15,6 +14,7 @@ public class Ball : MonoBehaviour {
 	public GameObject nextBall;
 
 	private bool isPressed = false;
+	
 
 	void Update ()
 	{
@@ -28,18 +28,7 @@ public class Ball : MonoBehaviour {
 				rb.position = mousePos;
 		}
 	}
-		void OnCollisionEnter2D (Collision2D colInfo)
-	{
-		if (colInfo.relativeVelocity.magnitude > health)
-		{
-			Die();
-		}
-	}
-
-	void Die ()
-	{
-		Destroy(gameObject);
-	}
+		
 	void OnMouseDown ()
 	{
 		isPressed = true;
@@ -61,7 +50,7 @@ public class Ball : MonoBehaviour {
 		GetComponent<SpringJoint2D>().enabled = false;
 		this.enabled = false;
 
-		yield return new WaitForSeconds(2f);
+		yield return new WaitForSeconds(.2f);
 
 		if (nextBall != null)
 		{

@@ -18,7 +18,7 @@ public class nivel_2 : MonoBehaviour
     }
     public void EmpezarJuego()
 {
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3); 
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2); 
     Debug.Log("funciona nivel 2");
 }
 

@@ -28,16 +28,17 @@ public class Enemy : MonoBehaviour {
 	{
 		Instantiate(deathEffect, transform.position, Quaternion.identity);
 		 if (Objeto != null)
-        {
-            bool isActive = Objeto.activeSelf;
+    	{
+			 bool isActive = Objeto.activeSelf;
 
             Objeto.SetActive(!isActive);
-        }
+
+		Destroy(gameObject);
+       }
 		EnemiesAlive--;
 		if (EnemiesAlive <= 0)
 			Debug.Log("LEVEL WON!");
-
-		Destroy(gameObject);
+			
 	}
 
 }

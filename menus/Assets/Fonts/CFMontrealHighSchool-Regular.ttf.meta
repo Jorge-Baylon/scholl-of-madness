@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: e3158b809f982b840b72db85f0cfec60
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: CF Montreal High School
+  fontNames:
+  - CF Montreal High School
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 11c9068204917aa458a0c9c4d4e473c7, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
